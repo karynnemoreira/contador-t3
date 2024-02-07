@@ -1,10 +1,11 @@
 import React from "react" //importando o react
-import Contador from "./Contador/Contador.jsx" //importando o contador.jsx, de dentro da pasta Contador
+import Contador from "./Components/Contador/Contador.jsx"
 
 function App(){
   return(
     <> 
-    <Contador />
+ {/* <h1>Olá</h1> */}
+ <Contador />
     </>
     
   )
